@@ -3,46 +3,43 @@ body {
   margin: 0 auto;
   text-align: center; }
 
-h3 {
-  margin-top: 30px;
+h1 {
+  font-size: 8rem;
+  letter-spacing: 1.5rem;
   text-transform: uppercase;
-  letter-spacing: 10px; }
+  margin-bottom: 0px; }
+
+h2 {
+  font-size: 4rem; }
+
+h3 {
+  margin: 30px;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  font-size: 70px; }
 
 h4 {
   margin: 0;
-  color: white; }
+  font-size: 80px; }
 
 h5 {
   margin: 0; }
 
 .border {
-  width: 40%;
+  width: 90%;
   padding: 1px;
-  margin: 10px 30%;
+  margin: 30px 5%;
   background: black; }
 
-@media (min-width: 700px) {
-  .col {
-    flex: auto;
-    width: 33%;
-    padding: 2px;
-    margin: 2px;
-    min-width: 100px; }
+.container {
+  padding: 10px; }
 
-  .skills-grid {
-    display: flex; } }
-@media (max-width: 699px) {
-  .skills-grid {
-    display: block; }
+.col {
+  font-size: 56px;
+  padding-bottom: 30px; }
 
-  .col {
-    flex: auto;
-    width: 100%;
-    padding: 2px;
-    margin: 2px;
-    min-width: 100px; } }
 .banner {
-  height: 500px;
+  height: 1000px;
   background: #34e89e;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #0f3443, #34e89e);
@@ -51,110 +48,86 @@ h5 {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: ivory;
   font-weight: .5; }
-  .banner .container {
-    padding: 10px; }
   .banner .banner-info {
-    margin-top: 120px; }
-  .banner h1 {
-    letter-spacing: 10px;
-    text-transform: uppercase; }
+    margin-top: 170px; }
   .banner .border {
-    width: 50%;
+    display: inline-block;
+    width: 80%;
     padding: 1px;
-    margin: auto 25%;
+    margin: auto 10%;
     background: ivory; }
+  .banner h2 {
+    margin-bottom: 80px; }
+  .banner a {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px 50px; }
 
 .summary {
-  display: block;
-  margin-bottom: 30px; }
+  margin-bottom: 100px; }
   .summary p {
     color: grey;
     margin: 2px auto; }
 
 .skills {
-  display: block;
   background-color: #34e89e; }
-  .skills h4 {
-    color: black; }
-  .skills .container {
-    padding: 5px;
-    margin: 2px; }
-  .skills .skills-grid {
-    margin: 5px auto;
-    padding: 2px; }
-    .skills .skills-grid .container {
-      display: flex;
-      margin: 0;
-      padding: 0; }
-    .skills .skills-grid h4 {
-      margin: 0; }
+  .skills .web-dev .grid {
+    display: flex; }
+    .skills .web-dev .grid .col {
+      width: 50%;
+      min-width: 100px; }
 
 .education {
-  display: block;
-  margin-bottom: 30px; }
-  .education .container {
-    padding: 5px;
-    margin: 2px; }
-    .education .container .edu-grid {
-      margin: 5px auto;
-      padding: 2px;
-      display: flex; }
-      .education .container .edu-grid .edu-grid-info {
-        background: lightgrey;
-        padding: 10px 20px; }
-      .education .container .edu-grid span.edu-head {
-        background: #34e89e;
-        padding: 5px 30px; }
-      .education .container .edu-grid .edu-border {
-        margin-top: 20px;
-        padding-top: 20px;
-        padding-bottom: 10px;
-        background: #34e89e; }
+  margin-bottom: 100px; }
+  .education .edu-year {
+    background: #34e89e;
+    padding: 5px 30px; }
+  .education .edu-head {
+    margin: 20px 5% 0px 5%;
+    padding: 20px 10px;
+    background: #34e89e; }
+  .education .edu-info {
+    margin: 0px 5% 20px 5%;
+    padding: 10px 20px 50px 20px;
+    background: lightgrey; }
+    .education .edu-info p {
+      margin: 0px; }
+  .education h4 {
+    font-size: 40px; }
 
 .employment {
-  margin-bottom: 30px; }
-  .employment .container {
-    padding: 5px;
-    margin: 2px; }
-    .employment .container .emp-grid {
-      margin: 5px auto;
-      padding: 2px;
-      display: flex; }
-      .employment .container .emp-grid .emp-grid-info {
-        background: lightgrey;
-        padding: 10px 20px; }
-      .employment .container .emp-grid .emp-border {
-        background: #34e89e;
-        margin-top: 20px;
-        padding-top: 20px;
-        padding-bottom: 10px; }
-      .employment .container .emp-grid .col {
-        width: 45%; }
-        .employment .container .emp-grid .col span {
-          background-color: #34e89e;
-          padding: 5px 30px; }
+  margin-bottom: 100px; }
+  .employment .emp-year {
+    background: #34e89e;
+    padding: 5px 30px; }
+  .employment .emp-head {
+    margin: 20px 5% 0px 5%;
+    padding: 20px 10px;
+    background: #34e89e; }
+  .employment .emp-info {
+    margin: 0px 5% 20px 5%;
+    padding: 10px 20px 50px 20px;
+    background: lightgrey; }
+    .employment .emp-info p {
+      margin: 0px; }
+  .employment h4 {
+    font-size: 40px; }
 
 .projects {
-  margin-bottom: 30px;
+  margin-bottom: 100px;
   background-color: #0f3443;
   color: white; }
   .projects .border {
     background: white; }
-  .projects .container {
-    padding: 5px;
-    margin: 2px; }
-    .projects .container .proj-grid {
-      display: flex; }
-      .projects .container .proj-grid .col {
-        width: 33%;
-        margin: 2px; }
-        .projects .container .proj-grid .col .proj {
-          font-size: 1.5em;
-          margin: 0; }
+  .projects p {
+    margin-top: 10px; }
 
 .contact {
-  margin-bottom: 30px;
-  display: block; }
+  margin-bottom: 30px; }
   .contact a {
     color: black;
     text-decoration: none; }
@@ -162,5 +135,78 @@ h5 {
     letter-spacing: 10px;
     font-size: 3em;
     margin: 0; }
+  .contact .fa {
+    padding: 20px;
+    margin: 0px 10px; }
+
+@media (min-width: 1025px) {
+  h1 {
+    font-size: 4em;
+    letter-spacing: 10px; }
+
+  h2 {
+    font-size: 2em; }
+
+  h4 {
+    font-size: 0.5em; }
+
+  h5 {
+    font-size: 0.6em; }
+
+  .grid {
+    display: flex; }
+
+  .col {
+    width: 33%;
+    min-width: 200px; }
+
+  .banner {
+    height: 500px; }
+    .banner .banner-info {
+      margin-top: 100px; }
+    .banner h2 {
+      margin-bottom: 50px; }
+    .banner a {
+      font-size: 1em; }
+
+  .summary p {
+    font-size: 2em; }
+
+  .skills .col {
+    text-align: center;
+    margin: 0px auto; }
+  .skills p {
+    font-size: 0.5em;
+    margin: 0px auto; }
+
+  .education {
+    margin-bottom: 0px; }
+    .education .col {
+      width: 50%; }
+    .education .edu-year {
+      font-size: 0.5em; }
+    .education .edu-info {
+      font-size: 0.5em; }
+
+  .employment {
+    margin-bottom: 0px; }
+    .employment .col {
+      width: 50%; }
+    .employment .emp-year {
+      font-size: 0.5em; }
+    .employment .emp-info {
+      font-size: 0.5em; }
+
+  .projects p {
+    font-size: 0.5em;
+    margin: 10px 10px; }
+
+  .contact .resume {
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px 50px; }
+  .contact p {
+    font-size: 2em; } }
 
 /*# sourceMappingURL=main.css.map */
