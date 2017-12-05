@@ -200,8 +200,20 @@ h5 {
     background: white;
   }
 
+  .col {
+    margin-top: 20px;
+  }
+
   p {
     margin-top: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 10px;
   }
 }
 
@@ -223,6 +235,11 @@ h5 {
     padding: 20px;
     margin: 0px 10px;
   }
+}
+
+footer {
+  background-color: $gradient-top;
+  padding: 30px;
 }
 
 // For desktop
@@ -326,6 +343,12 @@ h5 {
       font-size: 0.5em;
       margin: 10px 10px;
     }
+
+    a {
+      font-size: 30px;
+      padding: 10px;
+      border: 3px solid white;
+    }
   }
 
   .contact {
@@ -336,9 +359,13 @@ h5 {
       padding: 20px 50px;
     }
 
+    .divider {
+      margin-top: 30px;
+    }
+
     p {
       font-size: 2em;
     }
-    
+
   }
 }
