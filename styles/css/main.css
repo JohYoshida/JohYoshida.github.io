@@ -30,6 +30,7 @@
 .summary {
   margin-bottom: 100px; }
   .summary p {
+    font-size: 4rem;
     color: grey;
     margin: 2px auto; }
 
@@ -77,7 +78,7 @@
   background-color: #0f3443;
   color: white; }
   .projects .project {
-    margin-bottom: 5px; }
+    margin-bottom: 20px; }
     .projects .project p {
       margin-top: 10px;
       font-size: 2.5rem; }
@@ -87,13 +88,17 @@
       color: white;
       border: 5px solid white;
       border-radius: 15px;
-      padding: 30px;
+      padding: 10px;
       margin: 10px; }
   .projects .border {
     background: white; }
 
 .contact {
   margin-bottom: 30px; }
+  .contact p {
+    font-size: 3rem; }
+  .contact span {
+    font-size: 3rem; }
   .contact a {
     color: black;
     text-decoration: none; }
