@@ -1,3 +1,11 @@
+@import 'banner';
+@import 'summary';
+@import 'skills';
+@import 'education';
+@import 'employment';
+@import 'projects';
+@import 'contact';
+
 $gradient-top: #34e89e;
 $gradient-bottom: #0f3443;
 
@@ -54,196 +62,13 @@ h5 {
   padding-bottom: 30px;
 }
 
-// BANNER
-.banner {
-  height: 1000px;
-  background: $gradient-top; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    $gradient-bottom,
-    $gradient-top
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    $gradient-bottom,
-    $gradient-top
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: ivory;
-  font-weight: .5;
-
-  .banner-info {
-    margin-top: 170px;
-  }
-
-  .border {
-    display: inline-block;
-    width: 80%;
-    padding: 1px;
-    margin: auto 10%;
-    background: ivory;
-  }
-
-  h2 {
-    margin-bottom: 80px;
-  }
-
-  a {
-    font-size: 3em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: white;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 20px 50px;
-  }
-}
-
-// SUMMARY
-.summary {
-  margin-bottom: 100px;
-
-  p {
-    color: grey;
-    margin: 2px auto;
-  }
-}
-
-// SKILLS
-.skills {
-  background-color: $gradient-top;
-
-  .web-dev {
-    .grid {
-      display: flex;
-
-      .col {
-        width: 50%;
-        min-width: 100px
-      }
-    }
-  }
-}
-
-// EDUCATION
-.education {
-  margin-bottom: 100px;
-
-  .edu-year {
-    background: $gradient-top;
-    padding: 5px 30px;
-  }
-
-  .edu-head {
-    margin: 20px 5% 0px 5%;
-    // margin-bottom: 0px;
-    padding: 20px 10px;
-    // padding-bottom: 10px;
-    background: $gradient-top;
-  }
-
-  .edu-info {
-    margin: 0px 5% 20px 5%;
-    // margin-top: 0px;
-    padding: 10px 20px 50px 20px;
-    background: lightgrey;
-
-    p {
-      margin: 0px;
-    }
-  }
-
-  h4 {
-    font-size: 40px;
-  }
-}
-
-// EMPLOYMENT
-.employment {
-  margin-bottom: 100px;
-
-  .emp-year {
-    background: $gradient-top;
-    padding: 5px 30px;
-  }
-
-  .emp-head {
-    margin: 20px 5% 0px 5%;
-    // margin-bottom: 0px;
-    padding: 20px 10px;
-    // padding-bottom: 10px;
-    background: $gradient-top;
-  }
-
-  .emp-info {
-    margin: 0px 5% 20px 5%;
-    // margin-top: 0px;
-    padding: 10px 20px 50px 20px;
-    background: lightgrey;
-
-    p {
-      margin: 0px;
-    }
-  }
-
-  h4 {
-    font-size: 40px;
-  }
-}
-
-// PROJECTS
-.projects {
-  margin-bottom: 100px;
-  background-color: $gradient-bottom;
-  color: white;
-
-  .border {
-    background: white;
-  }
-
-  .col {
-    margin-top: 20px;
-  }
-
-  p {
-    margin-top: 10px;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-    border: 5px solid white;
-    border-radius: 15px;
-    padding: 30px;
-    margin: 10px;
-  }
-}
-
-// CONTACT
-.contact {
-  margin-bottom: 30px;
-
-  a {
-    color: black;
-    text-decoration: none;
-  }
-  .links {
-    letter-spacing: 10px;
-    font-size: 3em;
-    margin: 0;
-  }
-
-  .fa {
-    padding: 20px;
-    margin: 0px 10px;
-  }
-}
-
 footer {
   background-color: $gradient-top;
   padding: 30px;
 }
 
 // For desktop
-@media (min-width: 1025px) {
+@media (min-width: 721px) {
 
   h1 {
     font-size: 4em;
@@ -269,103 +94,6 @@ footer {
   .col {
     width: 33%;
     min-width: 200px;
-
-  }
-
-  .banner {
-    height: 500px;
-
-    .banner-info {
-      margin-top: 100px;
-    }
-
-    h2 {
-      margin-bottom: 50px;
-    }
-
-    a {
-      font-size: 1em;
-    }
-  }
-
-  .summary {
-    p {
-      font-size: 2em;
-    }
-  }
-
-  .skills {
-    .col {
-      text-align: center;
-      margin: 0px auto;
-    }
-
-    p {
-      font-size: 0.5em;
-      margin: 0px auto;
-    }
-  }
-
-  .education {
-    margin-bottom: 0px;
-
-    .col {
-      width: 50%;
-    }
-
-    .edu-year {
-      font-size: 0.5em;
-    }
-
-    .edu-info {
-      font-size: 0.5em;
-    }
-  }
-
-  .employment {
-    margin-bottom: 0px;
-
-    .col {
-      width: 50%;
-    }
-
-    .emp-year {
-      font-size: 0.5em;
-    }
-
-    .emp-info {
-      font-size: 0.5em;
-    }
-  }
-
-  .projects {
-    p {
-      font-size: 0.5em;
-      margin: 10px 10px;
-    }
-
-    a {
-      font-size: 30px;
-      padding: 10px;
-      border: 3px solid white;
-    }
-  }
-
-  .contact {
-    .resume {
-      text-transform: uppercase;
-      border: 1px solid black;
-      border-radius: 10px;
-      padding: 20px 50px;
-    }
-
-    .divider {
-      margin-top: 30px;
-    }
-
-    p {
-      font-size: 2em;
-    }
 
   }
 }

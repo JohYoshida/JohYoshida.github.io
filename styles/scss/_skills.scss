@@ -1,0 +1,29 @@
+.skills {
+  background-color: $gradient-top;
+
+  .web-dev {
+    .grid {
+      display: flex;
+
+      .col {
+        width: 50%;
+        min-width: 100px;
+      }
+    }
+  }
+}
+
+// Desktop
+@media (min-width: 721px) {
+  .skills {
+    .col {
+      text-align: center;
+      margin: 0px auto;
+    }
+
+    p {
+      font-size: 0.5em;
+      margin: 0px auto;
+    }
+  }
+}

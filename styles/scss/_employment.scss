@@ -1,0 +1,50 @@
+.employment {
+  margin-bottom: 100px;
+
+  .emp-year {
+    background: $gradient-top;
+    padding: 5px 30px;
+  }
+
+  .emp-head {
+    margin: 20px 5% 0px 5%;
+    // margin-bottom: 0px;
+    padding: 20px 10px;
+    // padding-bottom: 10px;
+    background: $gradient-top;
+  }
+
+  .emp-info {
+    margin: 0px 5% 20px 5%;
+    // margin-top: 0px;
+    padding: 10px 20px 50px 20px;
+    background: lightgrey;
+
+    p {
+      margin: 0px;
+    }
+  }
+
+  h4 {
+    font-size: 40px;
+  }
+}
+
+// Desktop
+@media (min-width: 721px) {
+  .employment {
+    margin-bottom: 0px;
+
+    .col {
+      width: 50%;
+    }
+
+    .emp-year {
+      font-size: 0.5em;
+    }
+
+    .emp-info {
+      font-size: 0.5em;
+    }
+  }
+}

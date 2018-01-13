@@ -1,0 +1,17 @@
+.summary {
+  margin-bottom: 100px;
+
+  p {
+    color: grey;
+    margin: 2px auto;
+  }
+}
+
+// Desktop
+@media (min-width: 721px) {
+  .summary {
+    p {
+      font-size: 2em;
+    }
+  }
+}

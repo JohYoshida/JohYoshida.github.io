@@ -1,0 +1,61 @@
+.banner {
+  height: 1000px;
+  background: $gradient-top; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    $gradient-bottom,
+    $gradient-top
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    $gradient-bottom,
+    $gradient-top
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: ivory;
+  font-weight: .5;
+
+  .banner-info {
+    margin-top: 170px;
+  }
+
+  .border {
+    display: inline-block;
+    width: 80%;
+    padding: 1px;
+    margin: auto 10%;
+    background: ivory;
+  }
+
+  h2 {
+    margin-bottom: 80px;
+  }
+
+  a {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px 50px;
+  }
+}
+
+// Desktop
+@media (min-width: 721px) {
+  .banner {
+    height: 500px;
+
+    .banner-info {
+      margin-top: 100px;
+    }
+
+    h2 {
+      margin-bottom: 50px;
+    }
+
+    a {
+      font-size: 1em;
+    }
+  }
+}
