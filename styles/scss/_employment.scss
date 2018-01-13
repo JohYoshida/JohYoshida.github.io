@@ -6,6 +6,7 @@
   .emp-year {
     background: $gradient-top;
     padding: 5px 30px;
+    font-size: 4.5rem;
   }
 
   .emp-head {
@@ -23,6 +24,7 @@
     background: lightgrey;
 
     p {
+      font-size: 3rem;
       margin: 0px;
     }
   }
@@ -30,15 +32,5 @@
 
 // Larger than tablet
 @media (min-width: 750px) {
-  .employment {
-    margin-bottom: 0px;
 
-    .emp-year {
-      font-size: 0.5em;
-    }
-
-    .emp-info {
-      font-size: 0.5em;
-    }
-  }
 }

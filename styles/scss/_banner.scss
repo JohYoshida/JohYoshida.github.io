@@ -16,6 +16,10 @@
   color: ivory;
   font-weight: .5;
 
+  .banner-info {
+    padding-top: 250px;
+  }
+
   .border {
     display: inline-block;
     width: 80%;
@@ -41,6 +45,5 @@
 
 // Larger than tablet
 @media (min-width: 750px) {
-  .banner {
-  }
+
 }

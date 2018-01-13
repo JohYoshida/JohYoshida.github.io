@@ -5,35 +5,30 @@
   background-color: $gradient-bottom;
   color: white;
 
+  .project {
+    margin-bottom: 5px;
+    p {
+      margin-top: 10px;
+      font-size: 2.5rem;
+    }
+    a {
+      font-size: 2rem;
+      text-decoration: none;
+      color: white;
+      border: 5px solid white;
+      border-radius: 15px;
+      padding: 30px;
+      margin: 10px;
+    }
+  }
+
   .border {
     background: white;
   }
 
-  p {
-    margin-top: 10px;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-    border: 5px solid white;
-    border-radius: 15px;
-    padding: 30px;
-    margin: 10px;
-  }
 }
 
 // Larger than tablet
 @media (min-width: 750px) {
-  .projects {
-    p {
-      font-size: 0.5em;
-      margin: 10px 10px;
-    }
 
-    a {
-      font-size: 30px;
-      padding: 10px;
-      border: 3px solid white;
-    }
-  }
 }
