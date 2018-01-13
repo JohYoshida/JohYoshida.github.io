@@ -31,13 +31,13 @@
     color: grey;
     margin: 2px auto; }
 
-@media (min-width: 120rem) {
+@media (min-width: 750px) {
   .summary p {
     font-size: 2em; } }
 .skills {
   background-color: #34e89e; }
 
-@media (min-width: 120rem) {
+@media (min-width: 750px) {
   .skills p {
     font-size: 0.5em;
     margin: 0px auto; } }
@@ -57,7 +57,7 @@
     .education .edu-info p {
       margin: 0px; }
 
-@media (min-width: 120rem) {
+@media (min-width: 750px) {
   .education {
     margin-bottom: 0px; }
     .education .edu-year {
@@ -80,7 +80,7 @@
     .employment .emp-info p {
       margin: 0px; }
 
-@media (min-width: 120rem) {
+@media (min-width: 750px) {
   .employment {
     margin-bottom: 0px; }
     .employment .emp-year {
@@ -103,7 +103,7 @@
     padding: 30px;
     margin: 10px; }
 
-@media (min-width: 120rem) {
+@media (min-width: 750px) {
   .projects p {
     font-size: 0.5em;
     margin: 10px 10px; }
@@ -124,7 +124,7 @@
     padding: 20px;
     margin: 0px 10px; }
 
-@media (min-width: 120rem) {
+@media (min-width: 750px) {
   .contact .resume {
     text-transform: uppercase;
     border: 1px solid black;

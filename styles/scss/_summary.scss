@@ -6,8 +6,8 @@
   }
 }
 
-// Desktop
-@media (min-width: 120.0rem) {
+// Larger than tablet
+@media (min-width: 750px) {
   .summary {
     p {
       font-size: 2em;
