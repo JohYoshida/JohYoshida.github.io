@@ -45,5 +45,13 @@
 
 // Larger than tablet
 @media (min-width: 750px) {
-
+  .banner {
+    height: 500px;
+    .banner-info {
+      padding-top: 100px;
+      a {
+        font-size: 1rem;
+      }
+    }
+  }
 }

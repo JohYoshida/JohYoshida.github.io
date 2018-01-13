@@ -1,10 +1,19 @@
 @import 'colors';
 
 .skills {
+  margin-top: 30px;
   background-color: $gradient-top;
+  p {
+    font-size: 3rem;
+  }
 }
 
 // Larger than tablet
 @media (min-width: 750px) {
-
+  .skills {
+    margin-top: 15px;
+    p {
+      font-size: 2rem;
+    }
+  }
 }

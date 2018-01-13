@@ -1,4 +1,5 @@
 .summary {
+  margin-top: 30px;
   margin-bottom: 100px;
   p {
     font-size: 4rem;
@@ -9,5 +10,11 @@
 
 // Larger than tablet
 @media (min-width: 750px) {
-
+ .summary {
+   margin-top: 15px;
+   margin-bottom: 20px;
+   p {
+     font-size: 2rem;
+   }
+ }
 }

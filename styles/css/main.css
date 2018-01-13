@@ -27,16 +27,38 @@
     border-radius: 10px;
     padding: 20px 50px; }
 
+@media (min-width: 750px) {
+  .banner {
+    height: 500px; }
+    .banner .banner-info {
+      padding-top: 100px; }
+      .banner .banner-info a {
+        font-size: 1rem; } }
 .summary {
+  margin-top: 30px;
   margin-bottom: 100px; }
   .summary p {
     font-size: 4rem;
     color: grey;
     margin: 2px auto; }
 
+@media (min-width: 750px) {
+  .summary {
+    margin-top: 15px;
+    margin-bottom: 20px; }
+    .summary p {
+      font-size: 2rem; } }
 .skills {
+  margin-top: 30px;
   background-color: #34e89e; }
+  .skills p {
+    font-size: 3rem; }
 
+@media (min-width: 750px) {
+  .skills {
+    margin-top: 15px; }
+    .skills p {
+      font-size: 2rem; } }
 .education {
   margin-bottom: 100px; }
   .education .edu-year {
@@ -93,6 +115,14 @@
   .projects .border {
     background: white; }
 
+@media (min-width: 750px) {
+  .projects {
+    padding-top: 15px; }
+    .projects .project p {
+      font-size: 1.5rem; }
+    .projects .project a {
+      font-size: 1.5rem;
+      border: 2px solid white; } }
 .contact {
   margin-bottom: 30px; }
   .contact p {
@@ -110,6 +140,9 @@
     padding: 20px;
     margin: 0px 10px; }
 
+@media (min-width: 750px) {
+  .contact p {
+    margin-bottom: 0rem; } }
 body {
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
@@ -143,5 +176,18 @@ h5 {
 footer {
   background-color: #34e89e;
   padding: 30px; }
+
+@media (min-width: 750px) {
+  h1 {
+    font-size: 6rem; }
+
+  h2 {
+    font-size: 4rem; }
+
+  h3 {
+    font-size: 5rem; }
+
+  h4 {
+    font-size: 3rem; } }
 
 /*# sourceMappingURL=main.css.map */

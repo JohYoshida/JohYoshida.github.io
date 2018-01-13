@@ -25,5 +25,9 @@
 
 // Larger than tablet
 @media (min-width: 750px) {
-
+  .contact {
+    p {
+      margin-bottom: 0rem;
+    }
+  }
 }
