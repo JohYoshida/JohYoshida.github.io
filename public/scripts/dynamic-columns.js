@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $(window).on('resize', function() {
+    var win= $(this);
     if (win.width() > 1025) {
       alert('desktop');
       $('programming-languages').addClass('three columns');
