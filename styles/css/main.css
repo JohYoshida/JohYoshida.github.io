@@ -27,7 +27,7 @@
     border-radius: 10px;
     padding: 20px 50px; }
 
-@media (min-width: 721px) {
+@media (min-width: 120rem) {
   .banner {
     height: 500px; }
     .banner .banner-info {
@@ -42,7 +42,7 @@
     color: grey;
     margin: 2px auto; }
 
-@media (min-width: 721px) {
+@media (min-width: 120rem) {
   .summary p {
     font-size: 2em; } }
 .skills {
@@ -53,7 +53,7 @@
       width: 50%;
       min-width: 100px; }
 
-@media (min-width: 721px) {
+@media (min-width: 120rem) {
   .skills .col {
     text-align: center;
     margin: 0px auto; }
@@ -78,7 +78,7 @@
   .education h4 {
     font-size: 40px; }
 
-@media (min-width: 721px) {
+@media (min-width: 120rem) {
   .education {
     margin-bottom: 0px; }
     .education .col {
@@ -105,7 +105,7 @@
   .employment h4 {
     font-size: 40px; }
 
-@media (min-width: 721px) {
+@media (min-width: 120rem) {
   .employment {
     margin-bottom: 0px; }
     .employment .col {
@@ -132,7 +132,7 @@
     padding: 30px;
     margin: 10px; }
 
-@media (min-width: 721px) {
+@media (min-width: 120rem) {
   .projects p {
     font-size: 0.5em;
     margin: 10px 10px; }
@@ -153,7 +153,7 @@
     padding: 20px;
     margin: 0px 10px; }
 
-@media (min-width: 721px) {
+@media (min-width: 120rem) {
   .contact .resume {
     text-transform: uppercase;
     border: 1px solid black;
@@ -207,7 +207,7 @@ footer {
   background-color: #34e89e;
   padding: 30px; }
 
-@media (min-width: 721px) {
+@media (min-width: 120rem) {
   h1 {
     font-size: 4em;
     letter-spacing: 10px; }
