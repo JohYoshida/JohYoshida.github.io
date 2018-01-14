@@ -27,13 +27,13 @@
     border-radius: 10px;
     padding: 20px 50px; }
 
-@media (min-width: 1025px) {
+@media (min-width: 750px) {
   .banner {
     height: 500px; }
     .banner .banner-info {
       padding-top: 100px; }
       .banner .banner-info a {
-        font-size: 1rem; } }
+        font-size: 2.3rem; } }
 .summary {
   margin-top: 30px;
   margin-bottom: 100px; }
@@ -42,7 +42,7 @@
     color: grey;
     margin: 2px auto; }
 
-@media (min-width: 1025px) {
+@media (min-width: 750px) {
   .summary {
     margin-top: 15px;
     margin-bottom: 20px; }
@@ -54,7 +54,7 @@
   .skills p {
     font-size: 3rem; }
 
-@media (min-width: 1025px) {
+@media (min-width: 750px) {
   .skills {
     margin-top: 15px; }
     .skills p {
@@ -77,6 +77,9 @@
       font-size: 3rem;
       margin: 0px; }
 
+@media (min-width: 750px) {
+  .education p {
+    font-size: 1.5rem; } }
 .employment {
   margin-bottom: 100px; }
   .employment .emp-year {
@@ -95,6 +98,9 @@
       font-size: 3rem;
       margin: 0px; }
 
+@media (min-width: 750px) {
+  .employment p {
+    font-size: 1.5rem; } }
 .projects {
   margin-bottom: 100px;
   background-color: #0f3443;
@@ -115,7 +121,7 @@
   .projects .border {
     background: white; }
 
-@media (min-width: 1025px) {
+@media (min-width: 750px) {
   .projects {
     padding-top: 15px; }
     .projects .project p {
@@ -140,7 +146,7 @@
     padding: 20px;
     margin: 0px 10px; }
 
-@media (min-width: 1025px) {
+@media (min-width: 750px) {
   .contact p {
     margin-bottom: 0rem; } }
 body {
@@ -177,7 +183,7 @@ footer {
   background-color: #34e89e;
   padding: 30px; }
 
-@media (min-width: 1025px) {
+@media (min-width: 750px) {
   h1 {
     font-size: 6rem; }
 
