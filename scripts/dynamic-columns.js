@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(window).on('resize', function() {
     var win= $(this);
-    if (win.width() > 1025) {
+    if (win.width() > 750) {
       $('.programming-languages').addClass('three columns');
       $('.web-dev').addClass('six columns');
       $('.game-dev').addClass('three columns');
