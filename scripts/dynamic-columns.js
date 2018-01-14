@@ -1,4 +1,11 @@
 $(document).ready(function() {
+  dynamicResize();
+  $(window).on('resize', function() {
+    dynamicResize();
+  });
+});
+
+function dynamicResize() {
   var win= $(this);
   if (win.width() > 750) {
     $('.programming-languages').addClass('three columns');
@@ -15,6 +22,4 @@ $(document).ready(function() {
     $('.employer').removeClass('six columns');
     $('.project').removeClass('six columns');
   }
-  $(window).on('resize', function() {
-  });
-});
+}
