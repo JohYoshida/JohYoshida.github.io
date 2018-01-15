@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 function dynamicResize() {
   var win= $(window);
-  if (win.width() > 750) {
+  if (win.width() > 1025) {
     $('.programming-languages').addClass('three columns');
     $('.web-dev').addClass('six columns');
     $('.game-dev').addClass('three columns');
