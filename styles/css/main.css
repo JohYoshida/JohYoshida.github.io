@@ -57,7 +57,7 @@
   .skills .skill p {
     font-size: 2rem; } }
 .education {
-  padding: 30px 0px; }
+  padding-top: 30px; }
   .education .edu-year {
     background: #34e89e;
     padding: 5px 30px;
@@ -78,7 +78,7 @@
   .education .edu-info p {
     font-size: 1.5rem; } }
 .employment {
-  padding: 30px 0px; }
+  padding-top: 30px; }
   .employment .emp-year {
     background: #34e89e;
     padding: 5px 30px;
@@ -180,7 +180,7 @@ h5 {
 .border {
   width: 90%;
   padding: 1px;
-  margin: 30px 5%;
+  margin: 15px 5%;
   background: black; }
 
 footer {
