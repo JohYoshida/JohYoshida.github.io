@@ -150,6 +150,7 @@
   .contact p {
     margin-bottom: 0rem; } }
 body {
+  word-wrap: break-word;
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
   text-align: center; }
