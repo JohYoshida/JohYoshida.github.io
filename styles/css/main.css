@@ -57,32 +57,32 @@
   .skills .skill p {
     font-size: 2rem; } }
 .education {
-  margin-bottom: 100px; }
+  padding: 30px 0px; }
   .education .edu-year {
     background: #34e89e;
     padding: 5px 30px;
-    font-size: 4.5rem; }
+    font-size: 1.5rem; }
   .education .edu-head {
-    margin: 20px 5% 0px 5%;
+    margin: 20px 5% 0;
     padding: 20px 10px;
     background: #34e89e; }
   .education .edu-info {
-    margin: 0px 5% 20px 5%;
-    padding: 10px 20px 50px 20px;
+    margin: 0 5% 20px;
+    padding: 10px 20px 50px;
     background: lightgrey; }
     .education .edu-info p {
-      font-size: 3rem;
-      margin: 0px; }
+      font-size: 2rem;
+      margin: 0; }
 
 @media screen and (min-width: 750px) {
   .education .edu-info p {
     font-size: 1.5rem; } }
 .employment {
-  margin-bottom: 100px; }
+  padding: 30px 0px; }
   .employment .emp-year {
     background: #34e89e;
     padding: 5px 30px;
-    font-size: 4.5rem; }
+    font-size: 1.5rem; }
   .employment .emp-head {
     margin: 20px 5% 0px 5%;
     padding: 20px 10px;
@@ -92,26 +92,26 @@
     padding: 10px 20px 50px 20px;
     background: lightgrey; }
     .employment .emp-info p {
-      font-size: 3rem;
+      font-size: 2rem;
       margin: 0px; }
 
 @media screen and (min-width: 750px) {
   .employment .emp-info p {
     font-size: 1.5rem; } }
 .projects {
-  margin-bottom: 100px;
+  padding: 30px 0px;
   background-color: #0f3443;
   color: white; }
   .projects .project {
     margin-bottom: 20px; }
     .projects .project p {
       margin-top: 10px;
-      font-size: 2.5rem; }
+      font-size: 1.5rem; }
     .projects .project a {
-      font-size: 2rem;
+      font-size: 1.5rem;
       text-decoration: none;
       color: white;
-      border: 5px solid white;
+      border: 2px solid white;
       border-radius: 15px;
       padding: 10px;
       margin: 10px; }
@@ -127,7 +127,7 @@
       font-size: 1.5rem;
       border: 2px solid white; } }
 .contact {
-  margin-bottom: 30px; }
+  padding: 30px 0px; }
   .contact p {
     font-size: 3rem; }
   .contact span {
@@ -163,11 +163,11 @@ h2 {
 
 h3 {
   text-transform: uppercase;
-  font-size: 2.4rem;
-  letter-spacing: 15px; }
+  font-size: 2rem;
+  letter-spacing: 14px; }
 
 h4 {
-  font-size: 4rem; }
+  font-size: 2rem; }
 
 h5 {
   font-size: 3.5rem;
