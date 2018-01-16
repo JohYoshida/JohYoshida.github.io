@@ -1,19 +1,24 @@
 @import 'colors';
 
 .skills {
-  margin-top: 30px;
+  padding: 30px 0px;
   background-color: $gradient-top;
-  p {
-    font-size: 3rem;
+  .skill {
+    margin-bottom: 10px;
+    p {
+      font-size: 2rem;
+      margin: 0px;
+    }
   }
 }
 
 // Larger than tablet
 @media screen and (min-width: 750px) {
   .skills {
-    margin-top: 15px;
-    p {
-      font-size: 2rem;
+    .skill {
+      p {
+        font-size: 2rem;
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
 .banner {
-  height: 1000px;
+  height: 600px;
   background: #34e89e;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #0f3443, #34e89e);
@@ -9,7 +9,7 @@
   color: ivory;
   font-weight: .5; }
   .banner .banner-info {
-    padding-top: 250px; }
+    padding-top: 150px; }
   .banner .border {
     display: inline-block;
     width: 80%;
@@ -19,7 +19,7 @@
   .banner h2 {
     margin-bottom: 80px; }
   .banner a {
-    font-size: 3em;
+    font-size: 1em;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
@@ -35,30 +35,27 @@
       .banner .banner-info a {
         font-size: 2.3rem; } }
 .summary {
-  margin-top: 30px;
-  margin-bottom: 100px; }
+  padding: 30px 0px; }
   .summary p {
-    font-size: 4rem;
+    font-size: 2rem;
     color: grey;
     margin: 2px auto; }
 
 @media screen and (min-width: 750px) {
-  .summary {
-    margin-top: 15px;
-    margin-bottom: 20px; }
-    .summary p {
-      font-size: 2rem; } }
+  .summary p {
+    font-size: 2rem; } }
 .skills {
-  margin-top: 30px;
+  padding: 30px 0px;
   background-color: #34e89e; }
-  .skills p {
-    font-size: 3rem; }
+  .skills .skill {
+    margin-bottom: 10px; }
+    .skills .skill p {
+      font-size: 2rem;
+      margin: 0px; }
 
 @media screen and (min-width: 750px) {
-  .skills {
-    margin-top: 15px; }
-    .skills p {
-      font-size: 2rem; } }
+  .skills .skill p {
+    font-size: 2rem; } }
 .education {
   margin-bottom: 100px; }
   .education .edu-year {
@@ -159,15 +156,15 @@ h1 {
   max-width: 300px;
   margin: auto;
   text-transform: uppercase;
-  font-size: 10rem; }
+  font-size: 6rem; }
 
 h2 {
-  font-size: 6rem; }
+  font-size: 4rem; }
 
 h3 {
   text-transform: uppercase;
-  font-size: 8rem;
-  letter-spacing: 25px; }
+  font-size: 2.4rem;
+  letter-spacing: 15px; }
 
 h4 {
   font-size: 4rem; }

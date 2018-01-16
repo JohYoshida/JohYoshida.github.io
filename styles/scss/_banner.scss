@@ -1,7 +1,7 @@
 @import 'colors';
 
 .banner {
-  height: 1000px;
+  height: 600px;
   background: $gradient-top; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
@@ -17,7 +17,7 @@
   font-weight: .5;
 
   .banner-info {
-    padding-top: 250px;
+    padding-top: 150px;
   }
 
   .border {
@@ -33,7 +33,7 @@
   }
 
   a {
-    font-size: 3em;
+    font-size: 1em;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
