@@ -78,7 +78,7 @@
       margin: 0px; }
 
 @media screen and (min-width: 750px) {
-  .education p {
+  .education .edu-info p {
     font-size: 1.5rem; } }
 .employment {
   margin-bottom: 100px; }
@@ -99,7 +99,7 @@
       margin: 0px; }
 
 @media screen and (min-width: 750px) {
-  .employment p {
+  .employment .emp-info p {
     font-size: 1.5rem; } }
 .projects {
   margin-bottom: 100px;
@@ -155,6 +155,8 @@ body {
   text-align: center; }
 
 h1 {
+  max-width: 300px;
+  margin: auto;
   text-transform: uppercase;
   font-size: 10rem; }
 
