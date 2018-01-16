@@ -129,7 +129,8 @@
 .contact {
   padding: 30px 0px; }
   .contact p {
-    font-size: 2rem; }
+    font-size: 2rem;
+    margin: 0px; }
   .contact span {
     font-size: 2rem;
     border: 2px solid black;
