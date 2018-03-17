@@ -104,6 +104,8 @@
   color: white; }
   .projects .project {
     margin-bottom: 20px; }
+    .projects .project h4 {
+      margin: 0px; }
     .projects .project p {
       margin-top: 10px;
       font-size: 1.5rem; }
@@ -112,8 +114,7 @@
       text-decoration: none;
       color: white;
       border: 2px solid white;
-      border-radius: 15px;
-      padding: 10px;
+      padding: 8px 10px;
       margin: 10px; }
   .projects .border {
     background: white; }
